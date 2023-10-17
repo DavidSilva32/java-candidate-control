@@ -3,7 +3,7 @@ public class Counter {
         try {
             count(1, 6);
         } catch (InvalidsParamsException e) {
-            System.out.println("Ok");
+            System.out.println("First param cannot be higher than second param");
         }
     }
 
